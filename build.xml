@@ -66,6 +66,7 @@
             <src path="src"/>
             <classpath refid="dyn4j.classpath"/>
         </javac>
+        <!--
         <javac debug="true" debuglevel="${debuglevel}" destdir="output/junit" includeantruntime="false" source="${source}" target="${target}">
             <src path="junit"/>
             <classpath refid="dyn4j.classpath"/>
@@ -78,6 +79,7 @@
             <src path="examples"/>
             <classpath refid="dyn4j.classpath"/>
         </javac>
+    -->
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
     </project>
